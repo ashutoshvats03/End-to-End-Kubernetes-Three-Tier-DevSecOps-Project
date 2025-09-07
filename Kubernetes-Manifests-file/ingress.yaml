@@ -4,7 +4,7 @@ metadata:
   name: mainlb
   namespace: three-tier
   annotations:
-    alb.ingress.kubernetes.io/scheme: internet
+    alb.ingress.kubernetes.io/scheme: internal
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
     # alb.ingress.kubernetes.io/subnets: subnet-01697a7e31a1c825b
